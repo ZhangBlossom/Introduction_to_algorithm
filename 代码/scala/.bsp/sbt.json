@@ -1,0 +1,1 @@
+{"name":"sbt","version":"1.8.0","bspVersion":"2.1.0-M1","languages":["scala"],"argv":["D:\\jdk-17.0.3.1/bin/java","-Xms100m","-Xmx100m","-classpath","C:/Users/Lenovo/AppData/Roaming/JetBrains/IdeaIC2022.1/plugins/Scala/launcher/sbt-launch.jar","xsbt.boot.Boot","-bsp","--sbt-launch-jar=C:/Users/Lenovo/AppData/Roaming/JetBrains/IdeaIC2022.1/plugins/Scala/launcher/sbt-launch.jar"]}
