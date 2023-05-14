@@ -1,4 +1,4 @@
-package main.java.com.leetcode.learn.string;
+package com.leetcode.learn.string.easy;
 
 /**
  * @author: 张锦标
