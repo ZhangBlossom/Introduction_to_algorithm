@@ -133,17 +133,3 @@ public class LRUCache<V> {
         System.out.println(cache.get("4"));
     }
 }
-
-class Node<V>{
-    public Node pre;
-    public Node next;
-    public String key;
-    public V value;
-
-    public Node(String key, V value) {
-        this.key = key;
-        this.value = value;
-    }
-
-}
-
