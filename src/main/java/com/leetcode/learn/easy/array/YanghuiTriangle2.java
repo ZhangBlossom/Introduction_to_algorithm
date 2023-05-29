@@ -1,4 +1,4 @@
-package main.java.com.leetcode.learn.easy.array;
+package com.leetcode.learn.easy.array;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -45,5 +45,37 @@ public class YanghuiTriangle2 {
         }
         return row;
     }
+
     //endregion
+    public static List<List<Integer>> getYanghui(int rowIndex) {
+        List<Integer> pre = new ArrayList<Integer>();
+        List<List<Integer>> result = new ArrayList<List<Integer>>();
+        for (int i = 0; i <= rowIndex; ++i) {
+            List<Integer> cur = new ArrayList<Integer>();
+            for (int j = 0; j <= i; ++j) {
+                if (j == 0 || j == i) {
+                    cur.add(1);
+                } else {
+                    cur.add(pre.get(j - 1) + pre.get(j));
+                }
+            }
+            pre = cur;
+            result.add(cur);
+        }
+        return result;
+    }
+
+    public static void main(String[] args) {
+        System.out.println(getYanghui(5));
+        List<Integer> row = new ArrayList<Integer>();
+        row.add(1);
+        for (int i = 1; i <= 5; ++i) {
+            row.add(0);
+            for (int j = i; j > 0; --j) {
+                row.set(j, row.get(j) + row.get(j - 1));
+            }
+        }
+
+    }
+
 }

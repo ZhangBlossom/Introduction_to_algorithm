@@ -1,4 +1,4 @@
-package main.java.com.leetcode.learn.easy.array;
+package com.leetcode.learn.easy.array;
 
 /**
  * @author: Zhangjinbiao
