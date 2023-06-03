@@ -25,4 +25,22 @@ public class TimAttack {
         result+=duration;
         return result;
     }
+
+    public static  int findPoisonedDuration1(int[] timeSeries, int duration){
+        if (duration == 0) {
+            return 0;
+        } else if (timeSeries.length == 1) {
+            return duration;
+        }
+        int total = 0;
+        for(int i=1;i<=timeSeries.length-1;i++){
+            if (timeSeries[i]-timeSeries[i-1]+1<=duration){
+                total+=duration;
+            }else{
+                total+=timeSeries[i]-timeSeries[i-1];
+            }
+        }
+        return total+duration;
+    }
 }
+

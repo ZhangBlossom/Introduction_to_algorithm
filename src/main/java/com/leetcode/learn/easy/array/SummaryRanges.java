@@ -1,4 +1,4 @@
-package main.java.com.leetcode.learn.easy.array;
+package com.leetcode.learn.easy.array;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -31,4 +31,29 @@ public class SummaryRanges {
         }
         return ret;
     }
+
+    public static List<String> summaryRanges1(int[] nums) {
+        List<String> result = new ArrayList<>();
+        int n = nums.length;
+        int i = 0;
+        while (i < n) {
+            int low = i;
+            while (i + 1 < n && nums[i] + 1 == nums[i + 1]) {
+                i++;
+            }
+            StringBuilder sb = new StringBuilder(nums[low] + "");
+            if (low < i) {
+                sb.append("->");
+                sb.append(nums[i]);
+            }
+            result.add(sb.toString());
+            i++;
+        }
+        return result;
+    }
+
+    public static void main(String[] args) {
+        summaryRanges1(new int[]{0, 1, 2, 4, 5, 7});
+    }
+
 }

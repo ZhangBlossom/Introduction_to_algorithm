@@ -1,7 +1,5 @@
 package com.base.learn.array;
 
-import com.base.learn.cache.LFUCache;
-
 import java.util.HashMap;
 import java.util.LinkedHashSet;
 import java.util.Map;

@@ -1,136 +1,133 @@
 package com.base.learn.cache;
 
-import org.junit.platform.commons.util.CollectionUtils;
+import java.util.HashMap;
+import java.util.Map;
 
-import java.util.*;
-import java.util.Map.Entry;
-
-public class LFUCache<V> {
-
-    private Map<String, Node<V>> cache = null;
-    private Map<Long, LinkedHashSet<Node<V>>> freqMap = null;
-    private int capacity = 0;
-    private int size = 0;
+class LFUCache {
+    int minfreq, capacity;
+    Map<Integer, Node> keyTable;
+    Map<Integer, DoublyLinkedList> freqTable;
 
     public LFUCache(int capacity) {
+        this.minfreq = 0;
         this.capacity = capacity;
-        this.freqMap = new HashMap<>();
-        cache = new LinkedHashMap<>(capacity, 0.75f, true);
+        keyTable = new HashMap<Integer, Node>();
+        freqTable = new HashMap<Integer, DoublyLinkedList>();
+    }
+    
+    public int get(int key) {
+        if (capacity == 0) {
+            return -1;
+        }
+        if (!keyTable.containsKey(key)) {
+            return -1;
+        }
+        Node node = keyTable.get(key);
+        int val = node.val, freq = node.freq;
+        freqTable.get(freq).remove(node);
+        // 如果当前链表为空，我们需要在哈希表中删除，且更新minFreq
+        if (freqTable.get(freq).size == 0) {
+            freqTable.remove(freq);
+            if (minfreq == freq) {
+                minfreq += 1;
+            }
+        }
+        // 插入到 freq + 1 中
+        DoublyLinkedList list = freqTable.getOrDefault(freq + 1, new DoublyLinkedList());
+        list.addFirst(new Node(key, val, freq + 1));
+        freqTable.put(freq + 1, list);
+        keyTable.put(key, freqTable.get(freq + 1).getHead());
+        return val;
+    }
+    
+    public void put(int key, int value) {
+        if (capacity == 0) {
+            return;
+        }
+        if (!keyTable.containsKey(key)) {
+            // 缓存已满，需要进行删除操作
+            if (keyTable.size() == capacity) {
+                // 通过 minFreq 拿到 freqTable[minFreq] 链表的末尾节点
+                Node node = freqTable.get(minfreq).getTail();
+                keyTable.remove(node.key);
+                freqTable.get(minfreq).remove(node);
+                if (freqTable.get(minfreq).size == 0) {
+                    freqTable.remove(minfreq);
+                }
+            }
+            DoublyLinkedList list = freqTable.getOrDefault(1, new DoublyLinkedList());
+            list.addFirst(new Node(key, value, 1));
+            freqTable.put(1, list);
+            keyTable.put(key, freqTable.get(1).getHead());
+            minfreq = 1;
+        } else {
+            // 与 get 操作基本一致，除了需要更新缓存的值
+            Node node = keyTable.get(key);
+            int freq = node.freq;
+            freqTable.get(freq).remove(node);
+            if (freqTable.get(freq).size == 0) {
+                freqTable.remove(freq);
+                if (minfreq == freq) {
+                    minfreq += 1;
+                }
+            }
+            DoublyLinkedList list = freqTable.getOrDefault(freq + 1, new DoublyLinkedList());
+            list.addFirst(new Node(key, value, freq + 1));
+            freqTable.put(freq + 1, list);
+            keyTable.put(key, freqTable.get(freq + 1).getHead());
+        }
     }
 
-    public V get(String key){
-        Node<V> node = cache.get(key);
-        if (node==null){
-            return null;
+    class Node {
+        int key, val, freq;
+        Node prev, next;
+
+        Node() {
+            this(-1, -1, 0);
         }
-        node.count++;
-        node.lastGetTime=System.nanoTime();
-        cache.put(key,node);
-        LinkedHashSet<Node<V>> set = freqMap.get(node.count);
-        if (set==null){
-            set = new LinkedHashSet<>();
+
+        Node(int key, int val, int freq) {
+            this.key = key;
+            this.val = val;
+            this.freq = freq;
         }
-        set.add(node);
-        freqMap.put(node.count,set);
-        return node.value;
     }
 
+    class DoublyLinkedList {
+        Node dummyHead, dummyTail;
+        int size;
 
-    public void put(String key, V value) {
-        size++;
-        //更新操作
-        if (cache.get(key) != null) {
-            cache.remove(key);
+        DoublyLinkedList() {
+            dummyHead = new Node();
+            dummyTail = new Node();
+            dummyHead.next = dummyTail;
+            dummyTail.prev = dummyHead;
+            size = 0;
+        }
+
+        public void addFirst(Node node) {
+            Node prevHead = dummyHead.next;
+            node.prev = dummyHead;
+            dummyHead.next = node;
+            node.next = prevHead;
+            prevHead.prev = node;
+            size++;
+        }
+
+        public void remove(Node node) {
+            Node prev = node.prev, next = node.next;
+            prev.next = next;
+            next.prev = prev;
             size--;
         }
-        Node<V> node = new Node<V>();
-        node.value = value;
-        //由于是更新操作 把使用次数设定为1
-        node.count = 1;
-        node.lastGetTime = System.nanoTime();
-        //判断是否还有空间存放
-        if (size <= this.capacity) {
-            cache.put(key, node);
-        } else {
-            //没有空间则移除那个访问频次最少的数据
-            removeLastNode();
-            if (cache.size() < this.capacity) {
-                cache.put(key, node);
-            }
+
+        public Node getHead() {
+            return dummyHead.next;
         }
 
-    }
-
-    // 淘汰最少使用的缓存
-    private void removeLastNode() {
-        long minCount = 0; //最小的计数数
-        long oldestGetTime = 0; //最老的获取时间
-        String waitRemoveKey = null; //等待要删除的key
-        long flag = 0; //表示当前遍历的数据的个数
-        //首先获取到cache缓存中的所有节点
-        //然后去记录了频次的链表中再去查找频次最低，访问时间最早的数据
-        //然后删除这个数据
-        Set<Entry<String, Node<V>>> cacheSet = this.cache.entrySet();
-        LinkedHashSet<Entry<String, Node<V>>> linkedHashSet = new LinkedHashSet<>(cacheSet);
-        Iterator<Entry<String, Node<V>>> iterator = linkedHashSet.iterator();
-        while (iterator.hasNext()) {
-            Entry<String, Node<V>> entry = iterator.next();
-            flag++;
-            String key = entry.getKey();
-            long count = entry.getValue().count;
-            long lastGetTime = entry.getValue().lastGetTime;
-            //判断当前记录是否是第一条记录
-            if (flag == 1) {
-                minCount = count;
-                waitRemoveKey = key;
-                oldestGetTime = entry.getValue().lastGetTime;
-                if (minCount == 1) { //是第一条记录并且访问次数为最少的1
-                    break; //直接退出循环并且删除该数据
-                }
-            }
-            //判断当前数据是否count数更小
-            if (count < minCount) {
-                minCount = count;
-                waitRemoveKey = key;
-                oldestGetTime = lastGetTime;
-            }
-            if (minCount == count) {//两条记录他们的访问次数一样
-                //访问次数一样并且数据的访问时间更老
-                if (oldestGetTime > lastGetTime) {
-                    minCount = count;
-                    waitRemoveKey = key;
-                    oldestGetTime = lastGetTime;
-                }
-            }
+        public Node getTail() {
+            return dummyTail.prev;
         }
-        //删除数据
-        if (waitRemoveKey != null) {
-            this.cache.remove(waitRemoveKey);
-        }
-
     }
-
-    class Node<V> {
-
-        public V value;
-        public long count;
-        public long lastGetTime;
-
-    }
-
-    public static void main(String[] args) {
-        LFUCache<Integer> cache = new LFUCache(2);
-        cache.put("1", 1);
-        cache.put("2", 2);
-        cache.put("3", 3);
-        //空间不足 剔除1 放入3
-        System.out.println(cache.get("3"));
-        System.out.println(cache.get("2"));
-        //空间不足 此时有3 2 ，访问次数都为1，但是3的访问时间更久之前，剔除3
-        cache.put("4", 4);
-        System.out.println(cache.get("3"));
-        System.out.println(cache.get("4"));
-        System.out.println(cache.get("2"));
-    }
-
 }
+
