@@ -1,4 +1,4 @@
-package test.java.proxytest.jdk;
+package proxytest.jdk;
 
 /**
  * @author: Zhangjinbiao
@@ -6,7 +6,7 @@ package test.java.proxytest.jdk;
  * Description:
  * Version: 1.0.0
  */
-public class UserServiceImpl implements UserService{
+public class UserServiceImpl implements UserService {
     public String sendMsg(String msg){
         System.out.println("发送短信："+msg);
         return msg;

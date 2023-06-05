@@ -1,4 +1,4 @@
-package test.java.proxytest.jdk;
+package proxytest.jdk;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
@@ -20,12 +20,14 @@ public class JdkProxy implements InvocationHandler {
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
         System.out.println("jdk动态代理前缀");
         Object o = method.invoke(target, args);
+        System.out.println(target+"target.class="+target.getClass());
         System.out.println("jdk动态代理后缀");
         return "返回值为：" + o;
     }
 
     public static void main(String[] args) {
-        UserService userService = (UserService) JdkProxyFactory.getProxy(new UserServiceImpl());
+        UserService userService =
+                (UserService) JdkProxyFactory.getProxy(new UserServiceImpl());
         String s = userService.sendMsg("你好呀 动态代理");
         System.out.println(s);
     }

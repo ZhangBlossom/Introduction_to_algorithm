@@ -1,4 +1,4 @@
-package test.java.proxytest.jdk;
+package proxytest.jdk;
 
 /**
  * @author: Zhangjinbiao

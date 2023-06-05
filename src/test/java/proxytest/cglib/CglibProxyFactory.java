@@ -1,4 +1,4 @@
-package test.java.proxytest.cglib;
+package proxytest.cglib;
 
 import net.sf.cglib.proxy.Enhancer;
 

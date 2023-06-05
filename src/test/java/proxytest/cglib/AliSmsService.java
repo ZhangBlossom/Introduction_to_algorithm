@@ -1,4 +1,4 @@
-package test.java.proxytest.cglib;
+package proxytest.cglib;
 
 public class AliSmsService {
     public String send(String message) {

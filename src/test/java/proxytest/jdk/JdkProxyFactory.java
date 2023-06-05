@@ -1,4 +1,4 @@
-package test.java.proxytest.jdk;
+package proxytest.jdk;
 
 import java.lang.reflect.Proxy;
 
@@ -10,7 +10,8 @@ import java.lang.reflect.Proxy;
  */
 public class JdkProxyFactory {
     public static Object getProxy(Object target){
-        return Proxy.newProxyInstance(target.getClass().getClassLoader(),
+        return Proxy.newProxyInstance(
+                target.getClass().getClassLoader(),
                 target.getClass().getInterfaces(),
                 new JdkProxy(target));
     }
