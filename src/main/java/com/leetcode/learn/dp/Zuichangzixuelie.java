@@ -1,4 +1,4 @@
-package main.java.com.leetcode.learn.dp;
+package com.leetcode.learn.dp;
 
 import java.util.HashMap;
 

@@ -10,8 +10,5 @@
         <module name="Introduction_to_algorithm" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="binary_search" target="8" />
-    </bytecodeTargetLevel>
   </component>
 </project>
