@@ -19,6 +19,7 @@ public class StrToInt {
         if(s.charAt(0)=='-'||s.charAt(0)=='+'){
             i=1;
         }
+
         int res = 0;
         while (i < s.length() && Character.isDigit(s.charAt(i))) {
             int digit = s.charAt(i++) - '0';
@@ -87,8 +88,10 @@ public class StrToInt {
     }
 
     public static void main(String[] args) {
-        System.out.println(-8 % 10);
-        System.out.println(myAtoi("-2147483648"));
+        //System.out.println(-8 % 10);
+        System.out.println(myAtoi("-21474836482"));
+        //
+        //System.out.println(214748364 == -(Integer.MIN_VALUE / 10));
     }
 
 }
