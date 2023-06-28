@@ -66,5 +66,18 @@ public class FileSecret {
         File dest1 = new File("D://desktop//1.mp4");//加密后文件位置
         //encrypt(enc,dest); //先加密
         decode(dest,dest1); //再解密
+        int a=10;
+        new Service(){
+            @Override
+            public void method(){
+                System.out.println("a="+a);
+            }
+        }.method();
+
     }
+
+}
+
+interface Service{
+    public void method();
 }

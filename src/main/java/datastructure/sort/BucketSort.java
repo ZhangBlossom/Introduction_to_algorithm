@@ -1,4 +1,4 @@
-package leetcode.sort;
+package datastructure.sort;
 
 import java.util.ArrayList;
 
