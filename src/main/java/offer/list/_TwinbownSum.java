@@ -16,12 +16,14 @@ public class _TwinbownSum {
         //----反转链表----重点部分------
         //后半段节点的头节点 last
         ListNode last = slow.next;
-        while (last.next != null) {
-            ListNode cur = last.next; //5
-            last.next = cur.next;//4->6
-            cur.next = slow.next;//5->4
-            slow.next = cur; //3->5->4->6
-        }
+        //while (last.next != null) {
+        //    ListNode cur = last.next; //5
+        //    last.next = cur.next;//4->6
+        //    cur.next = slow.next;//5->4
+        //    slow.next = cur; //3->5->4->6
+        //}
+        last = reverseList(last);
+        slow.next = last;
         int ans = 0;
         ListNode x = head;
         ListNode y = slow.next;
@@ -32,6 +34,18 @@ public class _TwinbownSum {
         }
         return ans;
 
+    }
+
+    public static ListNode reverseList(ListNode head){
+        ListNode pre = null;
+        ListNode temp = head;
+        while(temp!=null){
+            ListNode next = temp.next;
+            temp.next = pre;
+            pre = temp;
+            temp = next;
+        }
+        return pre;
     }
 
     public static void main(String[] args) {
