@@ -1,4 +1,4 @@
-package offer;
+package offer.doublelink;
 
 import java.util.Arrays;
 import java.util.Collections;

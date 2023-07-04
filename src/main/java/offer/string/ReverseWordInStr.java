@@ -1,4 +1,4 @@
-package offer;
+package offer.string;
 
 import org.junit.platform.commons.util.StringUtils;
 

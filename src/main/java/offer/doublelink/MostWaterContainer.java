@@ -1,4 +1,4 @@
-package offer;
+package offer.doublelink;
 
 /**
  * @author: 张锦标

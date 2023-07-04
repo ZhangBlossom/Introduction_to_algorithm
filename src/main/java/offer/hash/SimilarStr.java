@@ -1,4 +1,4 @@
-package offer;
+package offer.hash;
 
 import java.util.Arrays;
 

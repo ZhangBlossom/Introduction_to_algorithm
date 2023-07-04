@@ -1,11 +1,11 @@
-package offer;
+package offer.string;
 
 /**
  * @author: 张锦标
  * @date: 2023/6/20 16:49
  * StrToInt类
  */
-public class StrToInt {
+public class _StrToInt {
     public static int strToInt(String str) {
         str = str.trim();
         if (!Character.isDigit(str.charAt(0)) && str.charAt(0)!='-' && str.charAt(0)!='+'){

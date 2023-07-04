@@ -1,4 +1,4 @@
-package offer;
+package offer.prefixsum;
 
 /**
  * @author: 张锦标

@@ -1,4 +1,4 @@
-package offer;
+package offer.prefixsum;
 
 import java.util.Arrays;
 

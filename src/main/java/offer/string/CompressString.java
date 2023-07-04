@@ -1,4 +1,4 @@
-package offer;
+package offer.string;
 
 /**
  * @author: 张锦标

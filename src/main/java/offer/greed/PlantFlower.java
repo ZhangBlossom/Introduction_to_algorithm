@@ -1,4 +1,4 @@
-package offer;
+package offer.greed;
 
 /**
  * @author: 张锦标

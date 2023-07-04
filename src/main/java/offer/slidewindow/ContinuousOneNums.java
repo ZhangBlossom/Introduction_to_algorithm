@@ -1,4 +1,4 @@
-package offer;
+package offer.slidewindow;
 
 /**
  * @author: 张锦标
@@ -44,7 +44,18 @@ public class ContinuousOneNums {
         }
         return ans;
     }
-
+    public int longestOnes2(int[] A, int K) {
+        int l = 0, r = 0;
+        while (r < A.length) {
+            if (A[r++] == 0) {
+                K--;
+            }
+            if (K < 0 && A[l++] == 0) {
+                K++;
+            }
+        }
+        return r - l;
+    }
     public static void main(String[] args) {
         longestOnes(new int[]{0,0,0,1},4 );
     }

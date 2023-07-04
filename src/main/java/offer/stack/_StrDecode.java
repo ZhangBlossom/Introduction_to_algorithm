@@ -1,17 +1,14 @@
 package offer.stack;
 
-import javafx.beans.binding.StringBinding;
-
 import java.util.Collections;
 import java.util.LinkedList;
-import java.util.Stack;
 
 /**
  * @author: 张锦标
  * @date: 2023/7/2 11:09
  * StrDecode类
  */
-public class StrDecode {
+public class _StrDecode {
     static int ptr;
 
     public static String decodeString(String s) {

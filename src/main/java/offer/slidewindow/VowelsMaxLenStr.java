@@ -1,4 +1,4 @@
-package offer;
+package offer.slidewindow;
 
 import java.util.concurrent.LinkedBlockingQueue;
 
