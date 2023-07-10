@@ -4,6 +4,7 @@ package offer.tree;
  * @author: 张锦标
  * @date: 2023/7/4 20:19
  * LongestStaggeredPath类
+ * 1372
  */
 public class LongestStaggeredPath {
     int max = 0;
