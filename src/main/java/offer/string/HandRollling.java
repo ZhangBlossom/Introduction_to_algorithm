@@ -1,11 +1,11 @@
-package offer;
+package offer.string;
 
 /**
  * @author: 张锦标
  * @date: 2023/6/20 16:27
  * ReverseLeftWords类
  */
-public class ReverseLeftWords {
+public class HandRollling {
     public static String reverseLeftWords(String s, int n) {
         char[] chars = s.toCharArray();
         reverse(chars, 0, n);
