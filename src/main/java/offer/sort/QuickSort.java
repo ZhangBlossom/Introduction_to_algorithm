@@ -13,15 +13,17 @@ public class QuickSort {
         int left = start;
         int right = end;
         while (left < right) {
-            if (left < right && arr[left] < pivot) {
+            while (left < right && arr[left] < pivot) {
                 left++;
             }
-            if (left < right && arr[right] > pivot) {
+            while(left < right && arr[right] > pivot) {
                 right--;
             }
+            //走到这个if说明 left已经大于pivot
+            //right也小于了pivot
             if (left < right && arr[left] == arr[right]) {
                 left++;
-            }else{
+            }else{// 那么此时直接交换两个大小的值 更加有序
                 int temp = arr[right];
                 arr[right] = arr[left];
                 arr[left] = temp;

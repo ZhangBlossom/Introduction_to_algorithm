@@ -13,7 +13,7 @@ public class HeapSort {
         //一开始需要从最后一个非叶子节点开始创建
         //所以i是从最后一个叶子节点的位置开始
         for (int i = arr.length / 2 - 1; i >= 0; i--) {
-            adjustHeap(arr, i,arr.length);
+            adjustHeap(arr, i, arr.length);
         }
         for (int i = arr.length - 1; i > 0; i--) {
             arr[0] ^= arr[i];
@@ -63,10 +63,9 @@ public class HeapSort {
     // 堆化操作：将指定节点及其子树调整为最大堆
 
     /**
-     *
      * @param arr
-     * @param n n为限制范围
-     * @param i i为开始排序的索引位置
+     * @param n   n为限制范围
+     * @param i   i为开始排序的索引位置
      */
     void heapify(int arr[], int n, int i) {
         int largest = i; // 初始化最大值为父节点

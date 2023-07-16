@@ -34,7 +34,7 @@ public class SuccessfulPairsOfSpellsAndPotions {
             if ((long) potions[mid] * spell < success) {
                 left = mid + 1;
             } else if ((long) potions[mid] * spell >= success) {
-                right = mid;
+                right = mid; // 1 2 3 4 5 6
             }
         }
         //满足要求的第一个数据的下标就是right
