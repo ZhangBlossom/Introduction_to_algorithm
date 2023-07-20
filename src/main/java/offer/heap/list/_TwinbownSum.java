@@ -1,4 +1,4 @@
-package offer.list;
+package offer.heap.list;
 
 /**
  * @author: 张锦标

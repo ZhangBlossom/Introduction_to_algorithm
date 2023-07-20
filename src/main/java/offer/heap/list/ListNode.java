@@ -1,4 +1,4 @@
-package offer.list;
+package offer.heap.list;
 
 public class ListNode {
     int val;
