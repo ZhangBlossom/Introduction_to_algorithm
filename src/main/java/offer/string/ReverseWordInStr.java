@@ -12,6 +12,7 @@ import java.util.LinkedList;
  */
 public class ReverseWordInStr {
     public static String reverseWords1(String s){
+        //API战神
         String[] s1 = s.trim().split(" ");
         StringBuilder sb = new StringBuilder();
         for (int i = s1.length-1; i>=0; i--) {
@@ -23,6 +24,7 @@ public class ReverseWordInStr {
     }
 
     public static String reverseWords(String s){
+        //取出开头和结尾的空格
         int left = 0;
         int right = s.length()-1;
         while(left<s.length() && s.charAt(left)==' '){
@@ -42,6 +44,7 @@ public class ReverseWordInStr {
             }
             left++;
         }
+        //吧最后一个字符串页加进来
         deque.addFirst(sb.toString());
         return String.join(" ",deque);
     }

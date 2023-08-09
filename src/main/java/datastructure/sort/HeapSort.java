@@ -25,6 +25,7 @@ public class HeapSort {
 
     public static void heapSort(int[] arr) {
         //将无序序列构建成一个大顶堆或者小顶堆
+        //从最后一个非叶子节点开始构建
         for (int i = arr.length / 2 - 1; i >= 0; i--) {
             adjustHeap(arr, i, arr.length);
         }
@@ -64,4 +65,36 @@ public class HeapSort {
         arr[i] = temp;//大的数据被移上去了 但是其原有位置的数据还没有被修改
     }   //因此这一步操作就是为了修改那个数据
 
+
+    public static void heapSortX(int[] arr) {
+        //先组件一个大顶堆
+        for (int i = arr.length / 2 - 1; i >= 0; i--) {
+            adjustHeapX(arr, i, arr.length);
+        }
+        for (int i = arr.length - 1; i > 0; i--) {
+            arr[i] ^= arr[0];
+            arr[0] ^= arr[i];
+            arr[i] ^= arr[0];
+            adjustHeapX(arr, 0, arr.length);
+        }
+    }
+
+    private static void adjustHeapX(int[] arr, int i, int length) {
+        int temp = arr[i];
+        for (int k = 2 * i + 1; k < arr.length; k = 2 * k + 1) {
+            if (k + 1 < length && arr[k] < arr[k + 1]) {
+                k++;
+            }
+            if (temp < arr[k]) {
+                arr[i] = arr[k];
+                i = k;
+            }else{
+                break;
+            }
+        }
+        arr[i] = temp;
+    }
+
+
 }
+

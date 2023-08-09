@@ -28,8 +28,6 @@ public class PalindromeList {
         frontPointer = head;
         return recursivelyCheck(head);
     }
-
-
     //public boolean isPalindrome(ListNode head){
     //    StringBuilder sb = new StringBuilder();
     //    ListNode temp = head;
