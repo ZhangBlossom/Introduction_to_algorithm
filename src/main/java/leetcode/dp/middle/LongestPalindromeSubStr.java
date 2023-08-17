@@ -73,6 +73,7 @@ public class LongestPalindromeSubStr {
             for (int i = 0; i < len; i++) {
                 int j = L + i - 1;
                 if (j >= len) {
+
                     break;
                 }
                 //如果i和j不相等，那么Si-Sj肯定不是回文串，直接false

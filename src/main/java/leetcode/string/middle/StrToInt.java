@@ -24,10 +24,12 @@ public class StrToInt {
         while (i < s.length() && Character.isDigit(s.charAt(i))) {
             int digit = s.charAt(i++) - '0';
             // 题目中说：环境只能存储 32 位大小的有符号整数，因此，需要提前判：断乘以 10 以后是否越界
-            if (!neg && (res > Integer.MAX_VALUE / 10 || (res == Integer.MAX_VALUE / 10 && digit > Integer.MAX_VALUE % 10))){
+            if (!neg && (res > Integer.MAX_VALUE / 10 ||
+                    (res == Integer.MAX_VALUE / 10 && digit > Integer.MAX_VALUE % 10))){
                 return Integer.MAX_VALUE;
             }
-            if (-res < Integer.MIN_VALUE / 10 || (-res == Integer.MIN_VALUE / 10 && digit > -(Integer.MIN_VALUE % 10))) {
+            if (-res < Integer.MIN_VALUE / 10 ||
+                    (-res == Integer.MIN_VALUE / 10 && digit > -(Integer.MIN_VALUE % 10))) {
                 return Integer.MIN_VALUE;
             }
             res = res * 10 + digit;

@@ -35,7 +35,6 @@ public class SearchInsert {
                 return binarySearch(nums, mid, right, target);
             } else { //nums[mid]>target
                 if (nums[mid - 1] < target) {
-
                     return mid;
                 }
                 return binarySearch(nums, left, mid, target);
