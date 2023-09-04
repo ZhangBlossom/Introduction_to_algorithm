@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4fd4a009-3d50-457c-8a95-8297bb683617" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/tree/_543DiameterTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tree/_617MegerTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tree/offer/_26TreeSonStructure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tree/offer/_Of27MirrorTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tree/offer/_Of32TopToBottomTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tree/offer/_Of7RebuidTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tree/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tree/recite/_A236BinTreeAncestor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tree/Demo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tree/_105PreInBuildTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tree/_105PreInBuildTree.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="alwaysUpdateSnapshots" value="true" />
+        <option name="localRepository" value="F:\apache-maven-3.6.0\repo" />
+        <option name="mavenHome" value="F:/apache-maven-3.6.0" />
+        <option name="userSettingsFile" value="F:\apache-maven-3.6.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2U6fyngOOcvixKZFbEpUsf2bFok" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="tree" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\46021\AppData\Roaming\Subversion</configuration>
+    <option name="sshConnectionType" value="PRIVATE_KEY" />
+    <option name="sshPrivateKeyPath" value="C:\Users\46021/.ssh/id_rsa" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4fd4a009-3d50-457c-8a95-8297bb683617" name="Changes" comment="" />
+      <created>1692265211936</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1692265211936</updated>
+      <workItem from="1692265213528" duration="91000" />
+      <workItem from="1692265358255" duration="27000" />
+      <workItem from="1692688577568" duration="6521000" />
+      <workItem from="1693642933226" duration="17741000" />
+      <workItem from="1693728274242" duration="11070000" />
+      <workItem from="1693807857562" duration="7792000" />
+    </task>
+    <task id="LOCAL-00001" summary="写一些题目">
+      <created>1693724478154</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1693724478154</updated>
+    </task>
+    <task id="LOCAL-00002" summary="写一些题目">
+      <created>1693741436052</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1693741436052</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="写一些题目" />
+    <option name="LAST_COMMIT_MESSAGE" value="写一些题目" />
+  </component>
+</project>

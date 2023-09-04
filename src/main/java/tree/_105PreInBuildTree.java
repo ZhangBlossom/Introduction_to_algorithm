@@ -33,6 +33,8 @@ public class _105PreInBuildTree {
         //得到左子树的长度
         int leftTreeLength = root_in_index - iStart;
         //构建左右子树
+        //这里是一个左闭右开的区间
+        //也就是Start都是被包含的 但是End是结束的位置 不被包含
         root.left = buildTree(preorder, pStart + 1, pStart + 1 + leftTreeLength, inorder, iStart, root_in_index);
         root.right = buildTree(preorder, pStart + 1 + leftTreeLength, pEnd, inorder, root_in_index + 1, iEnd);
         return root;
