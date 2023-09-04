@@ -4,17 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4fd4a009-3d50-457c-8a95-8297bb683617" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/tree/_543DiameterTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tree/_617MegerTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tree/offer/_26TreeSonStructure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tree/offer/_Of27MirrorTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tree/offer/_Of32TopToBottomTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tree/offer/_Of7RebuidTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tree/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tree/recite/_A236BinTreeAncestor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tree/Demo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tree/_105PreInBuildTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tree/_105PreInBuildTree.java" afterDir="false" />
+    <list default="true" id="4fd4a009-3d50-457c-8a95-8297bb683617" name="Changes" comment="写一些题目">
+      <change afterPath="$PROJECT_DIR$/src/main/java/tree/_124MaxPathSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tree/_404LeftLeaveSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tree/_450DeleteNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +84,8 @@
       <workItem from="1692688577568" duration="6521000" />
       <workItem from="1693642933226" duration="17741000" />
       <workItem from="1693728274242" duration="11070000" />
-      <workItem from="1693807857562" duration="7792000" />
+      <workItem from="1693807857562" duration="11203000" />
+      <workItem from="1693822750112" duration="1434000" />
     </task>
     <task id="LOCAL-00001" summary="写一些题目">
       <created>1693724478154</created>
@@ -106,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693741436052</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="写一些题目">
+      <created>1693817290045</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1693817290045</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
