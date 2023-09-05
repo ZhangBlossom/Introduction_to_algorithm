@@ -7,7 +7,7 @@ import leetcode.tree.TreeNode;
  * @date: 2023/9/4 14:12
  * _236BinTreeAncestor类
  */
-public class _A236BinTreeAncestor {
+public class _236BinTreeAncestor {
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
         if (root == null || root == p || root == q) {
             return root;

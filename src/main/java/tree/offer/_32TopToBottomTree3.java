@@ -11,7 +11,7 @@ import java.util.List;
  * @date: 2023/9/4 16:17
  * _Of32TopToBottomTree类
  */
-public class _32TopToBottomTree {
+public class _32TopToBottomTree3 {
     public List<List<Integer>> levelOrder(TreeNode root) {
         List<List<Integer>> ans = new LinkedList<>();
         if (root==null){
