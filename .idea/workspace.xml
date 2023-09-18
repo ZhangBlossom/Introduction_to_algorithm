@@ -5,18 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4fd4a009-3d50-457c-8a95-8297bb683617" name="Changes" comment="写一些题目">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode75/tree/GoodNodes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode75/tree/LongestZigZag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode75/tree/LowestCommonAncestor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode75/tree/MaxDepth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode75/tree/MaxLevelSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode75/tree/PathSum3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode75/tree/SimilarLeaf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tree/_222NodeNums.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tree/offer/_32TopToBottomTree1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tree/recite/_129TopToLeafSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tree/recite/_337Rob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top150/array/DelDupVal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top150/array/DelDupVal2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top150/array/MergeSortedArr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top150/array/RemoveVal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tree/_226InvertTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tree/_RightView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/offer/string/_HandRollingAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/offer/string/_HandRollingAlgorithm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tree/_95DiffBinTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tree/recite/_95DiffBinTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +74,20 @@
       <recent name="tree" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application._HandRollingAlgorithm">
+    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="offer.sort.QuickSort" />
+      <module name="Introduction_to_algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="offer.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="_129TopToLeafSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tree.recite._129TopToLeafSum" />
       <module name="Introduction_to_algorithm" />
@@ -90,8 +101,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_HandRollingAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="offer.string._HandRollingAlgorithm" />
+      <module name="Introduction_to_algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="offer.string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._HandRollingAlgorithm" />
+        <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application._129TopToLeafSum" />
       </list>
     </recent_temporary>
@@ -119,7 +145,11 @@
       <workItem from="1693834675796" duration="5166000" />
       <workItem from="1693899001973" duration="2115000" />
       <workItem from="1693913190369" duration="2802000" />
-      <workItem from="1693967541863" duration="5846000" />
+      <workItem from="1693967541863" duration="5864000" />
+      <workItem from="1694133824941" duration="5891000" />
+      <workItem from="1694262478947" duration="635000" />
+      <workItem from="1694518495909" duration="962000" />
+      <workItem from="1694998854595" duration="6137000" />
     </task>
     <task id="LOCAL-00001" summary="写一些题目">
       <created>1693724478154</created>
@@ -156,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693893195297</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="写一些题目">
+      <created>1693978193696</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1693978193696</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

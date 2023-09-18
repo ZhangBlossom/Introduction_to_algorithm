@@ -33,11 +33,11 @@ public class _HandRollingAlgorithm {
     }
 
     public static void main(String[] args) {
-        String s = "123456";
+        String s = "1234567";
         char[] chars = s.toCharArray();
-        reversePart(chars, 0, 3);
+        reversePart(chars, 0, 4);
         System.out.println(Arrays.toString(chars));
-        reversePart(chars, 3, chars.length);
+        reversePart(chars, 4, chars.length);
         System.out.println(Arrays.toString(chars));
         reversePart(chars,0,chars.length);
         System.out.println(Arrays.toString(chars));
