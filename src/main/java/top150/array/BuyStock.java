@@ -1,4 +1,4 @@
-package leetcode.easy.array;
+package top150.array;
 
 /**
  * @author: Zhangjinbiao
