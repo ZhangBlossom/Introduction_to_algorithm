@@ -6,6 +6,7 @@ import leetcode.tree.TreeNode;
  * @author: 张锦标
  * @date: 2023/10/10 21:37
  * _106InPostOrderTree类
+ * 中序和后续遍历生成二叉树
  */
 public class _106InPostOrderTree {
     //在后序遍历序列中,最后一个元素为树的根节点
