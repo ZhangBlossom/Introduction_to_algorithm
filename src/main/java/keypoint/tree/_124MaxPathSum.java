@@ -1,4 +1,6 @@
-package leetcode.tree;
+package keypoint.tree;
+
+import leetcode.tree.TreeNode;
 
 /**
  * @author: 张锦标

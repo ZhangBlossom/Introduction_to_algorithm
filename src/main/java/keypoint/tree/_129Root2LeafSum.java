@@ -1,13 +1,15 @@
-package leetcode.tree.recite;
+package keypoint.tree;
 
 import leetcode.tree.TreeNode;
 
 /**
  * @author: 张锦标
- * @date: 2023/9/5 16:10
- * _129TopToLeafSum类
+ * @date: 2023/10/11 11:06
+ * _129Root2LeafSum类
+ * 给你一个二叉树的根节点 root ，树中每个节点都存放有一个 0 到 9 之间的数字。
+ * 每条从根节点到叶节点的路径都代表一个数字：
  */
-public class _129TopToLeafSum {
+public class _129Root2LeafSum {
     public int sumNumbers(TreeNode root) {
         return dfs(root, 0);
     }
@@ -20,17 +22,7 @@ public class _129TopToLeafSum {
         if (root.left == null && root.right == null) {
             return curSum;
         } else {
-            return dfs(root.left, curSum) + dfs(root.right, curSum);
+            return dfs(root.left,curSum) + dfs(root.right,curSum);
         }
-    }
-
-    public static void main(String[] args) {
-        int count = 0;
-        for(int i = 0;i < 100;i++)
-        {
-            count = count++;
-        }
-        System.out.println("count = "+count);
-
     }
 }

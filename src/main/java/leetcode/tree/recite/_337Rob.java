@@ -1,6 +1,6 @@
 package leetcode.tree.recite;
 
-import offer.tree.TreeNode;
+import leetcode.tree.TreeNode;
 
 import java.util.HashMap;
 import java.util.Map;

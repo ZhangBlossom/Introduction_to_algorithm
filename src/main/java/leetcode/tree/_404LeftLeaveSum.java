@@ -1,11 +1,12 @@
 package leetcode.tree;
 
-import offer.tree.TreeNode;
+import leetcode.tree.TreeNode;
 
 /**
  * @author: 张锦标
  * @date: 2023/9/4 17:44
  * _404LeftLeaveSum类
+ * 左叶子之和
  */
 public class _404LeftLeaveSum {
     public int sumOfLeftLeaves(TreeNode root) {

@@ -1,6 +1,6 @@
 package offer.tree.dfs;
 
-import offer.tree.TreeNode;
+import leetcode.tree.TreeNode;
 
 /**
  * @author: 张锦标

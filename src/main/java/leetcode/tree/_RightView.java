@@ -1,6 +1,6 @@
 package leetcode.tree;
 
-import offer.tree.TreeNode;
+import leetcode.tree.TreeNode;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
