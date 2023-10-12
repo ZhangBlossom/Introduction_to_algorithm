@@ -5,64 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4fd4a009-3d50-457c-8a95-8297bb683617" name="Changes" comment="写一些题目">
-      <change afterPath="$PROJECT_DIR$/src/main/java/keypoint/tree/_112PathSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/keypoint/tree/_113PathSum2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/keypoint/tree/_124MaxPathSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/keypoint/tree/_129Root2LeafSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/keypoint/tree/_235LowestCommonAncestor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/keypoint/tree/_257BTPath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/keypoint/tree/_297SerializeTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/keypoint/tree/_331CheckPreOrderSerialize.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/keypoint/tree/_337Loot3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/keypoint/tree/_437PathSum3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/keypoint/tree/_449SerializeBST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/keypoint/tree/_Root2LeafPath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/keypoint/tree/traverse/BFS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/keypoint/tree/traverse/NoRecDFS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/keypoint/tree/traverse/RecDFS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/_102LevelOrderTraverse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/_105PreInOrderTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/_106InPostOrderTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/_129Root2LeafSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/_235LowestCommonAncestor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/_257BTPath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/_297SerializeTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/_331CheckPreOrderSerialize.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/_337Loot3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/_341NestedIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/_429NTreeLevelOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/_98IsBST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/_Root2LeafPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/datastructure/heap/LowHeapSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/datastructure/heap/MinHeap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/datastructure/heap/MyPriorityQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/datastructure/heap/TopHeapSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/datastructure/heap/_215KthLargest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/keypoint/tree/_450DeleteNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/_501ModeTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/tree/_112PathSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/_112PathSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/tree/_113PathSum2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/_113PathSum2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/tree/_116FillRightNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/_116FillRightNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/tree/_124MaxPathSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/_124MaxPathSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/tree/_222NodeNums.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/_222NodeNums.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/tree/_230KthSmallestNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/_230KthSmallestNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/tree/_404LeftLeaveSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/_404LeftLeaveSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/tree/_700BinTreeSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/_700BinTreeSearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/tree/_RightView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/_RightView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/tree/offer/_28IsSymmetricTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/offer/_28IsSymmetricTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/tree/offer/_54KthTopNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/offer/_54KthTopNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/tree/offer/_55DepthTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/offer/_55DepthTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/tree/recite/_129TopToLeafSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/recite/_129TopToLeafSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/tree/recite/_337Rob.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/recite/_337Rob.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode75/tree/GoodNodes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode75/tree/GoodNodes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode75/tree/LongestZigZag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode75/tree/LongestZigZag.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode75/tree/LowestCommonAncestor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode75/tree/LowestCommonAncestor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode75/tree/MaxDepth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode75/tree/MaxDepth.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode75/tree/MaxLevelSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode75/tree/MaxLevelSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode75/tree/PathSum3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode75/tree/PathSum3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode75/tree/SimilarLeaf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode75/tree/SimilarLeaf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/offer/tree/GoodNodeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/offer/tree/GoodNodeNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/offer/tree/LongestStaggeredPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/offer/tree/LongestStaggeredPath.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/offer/tree/MaxDepthTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/offer/tree/MaxDepthTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/offer/tree/MaxLayerSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/offer/tree/MaxLayerSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/offer/tree/SimilarLeaveTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/offer/tree/SimilarLeaveTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/offer/tree/TreeNode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/offer/tree/TreeRightView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/offer/tree/TreeRightView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/offer/tree/dfs/PathSum3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/offer/tree/dfs/PathSum3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,20 +50,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/desktop/Introduction_to_algorithm/src/main/java/leetcode/tree",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/desktop/Introduction_to_algorithm/src/main/java/leetcode/tree&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
@@ -218,7 +168,8 @@
       <workItem from="1696728486235" duration="3024000" />
       <workItem from="1696742121760" duration="593000" />
       <workItem from="1696846482628" duration="2192000" />
-      <workItem from="1696935974041" duration="23528000" />
+      <workItem from="1696935974041" duration="25504000" />
+      <workItem from="1697084565825" duration="7823000" />
     </task>
     <task id="LOCAL-00001" summary="写一些题目">
       <created>1693724478154</created>
@@ -283,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696945936727</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="写一些题目">
+      <created>1697027154188</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1697027154188</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
