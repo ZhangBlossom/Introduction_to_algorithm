@@ -5,14 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4fd4a009-3d50-457c-8a95-8297bb683617" name="Changes" comment="写一些题目">
-      <change afterPath="$PROJECT_DIR$/src/main/java/datastructure/heap/LowHeapSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/datastructure/heap/MinHeap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/datastructure/heap/MyPriorityQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/datastructure/heap/TopHeapSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/datastructure/heap/_215KthLargest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/keypoint/tree/_450DeleteNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/_501ModeTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/datastructure/binary_search/_1146SnapShotArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/datastructure/binary_search/_1351CountNegatives.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/datastructure/binary_search/_34SearchFirstAndLast.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/datastructure/binary_search/_35SearchInsertIndex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/datastructure/binary_search/_744FindMinBigThanTarget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/keypoint/binarysearch/FindLeftAndRight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/type/binarysearch/BinarySearchLeftRightMost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/type/binarysearch/_1146SnapShotArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/type/binarysearch/_1351CountNegatives.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/type/binarysearch/_153SearchMinInRotateArr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/type/binarysearch/_153SearchMinInRotationArray2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/type/binarysearch/_33SearchRotateArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/type/binarysearch/_34SearchFirstAndLast.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/type/binarysearch/_35SearchInsertIndex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/type/binarysearch/_374GuessNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/type/binarysearch/_704BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/type/binarysearch/_744FindMinBigThanTarget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ArrayDup.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/datastructure/binary_search/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datastructure/binary_search/_704BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/tree/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/TreeNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,20 +63,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/desktop/Introduction_to_algorithm/src/main/java/leetcode/tree&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/desktop/Introduction_to_algorithm/src/main/java/type/binarysearch",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
@@ -72,6 +85,7 @@
       <recent name="leetcode.tree" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\desktop\Introduction_to_algorithm\src\main\java\type\binarysearch" />
       <recent name="D:\desktop\Introduction_to_algorithm\src\main\java\leetcode\tree" />
       <recent name="D:\desktop\Introduction_to_algorithm\src\main\java\top150\array" />
     </key>
@@ -81,7 +95,14 @@
       <recent name="tree" />
     </key>
   </component>
-  <component name="RunManager" selected="Application._HandRollingAlgorithm">
+  <component name="RunManager" selected="Application.ArrayDup">
+    <configuration name="ArrayDup" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArrayDup" />
+      <module name="Introduction_to_algorithm" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="offer.sort.QuickSort" />
       <module name="Introduction_to_algorithm" />
@@ -123,6 +144,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrayDup" />
         <item itemvalue="Application._HandRollingAlgorithm" />
         <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application._129TopToLeafSum" />
@@ -169,7 +191,8 @@
       <workItem from="1696742121760" duration="593000" />
       <workItem from="1696846482628" duration="2192000" />
       <workItem from="1696935974041" duration="25504000" />
-      <workItem from="1697084565825" duration="7823000" />
+      <workItem from="1697084565825" duration="7844000" />
+      <workItem from="1697110701689" duration="16402000" />
     </task>
     <task id="LOCAL-00001" summary="写一些题目">
       <created>1693724478154</created>
@@ -241,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697027154188</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="写一些题目">
+      <created>1697110480141</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1697110480141</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

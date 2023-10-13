@@ -1,4 +1,4 @@
-package datastructure.binary_search;
+package type.binarysearch;
 
 
 import org.junit.jupiter.api.Test;
@@ -10,7 +10,7 @@ import java.util.Arrays;
  * @date: 2023/4/24 14:05
  * BinarySearch类
  */
-public class BinarySearch {
+public class _704BinarySearch {
     //基础版本
     public static int binarysearchBasic(int[] a, int target) {
         int i = 0, j = a.length - 1;
