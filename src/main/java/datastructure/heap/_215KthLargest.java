@@ -10,7 +10,7 @@ import java.util.PriorityQueue;
  * 使用优先队列的方式筛选所有数据中的topK个数据
  * TODO：如何自己实现一个优先队列呢？手写一个PriorityQueue
  */
-public class _215KthLargest {
+public class  _215KthLargest {
     public int findKthLargest(int[] nums, int k) {
         PriorityQueue<Integer> minHeap = new PriorityQueue<>(k, new Comparator<Integer>() {
             @Override

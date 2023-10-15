@@ -5,23 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4fd4a009-3d50-457c-8a95-8297bb683617" name="Changes" comment="写一些题目">
-      <change afterPath="$PROJECT_DIR$/src/main/java/datastructure/list/DoublyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/type/binarysearch/A_300LongestSubSeq.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/type/binarysearch/_1539MissingK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/type/binarysearch/_2300SuccessfulPairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/type/binarysearch/_274Hindex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/type/binarysearch/_275Hindex2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/type/binarysearch/_367IsPerfectSquare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/type/binarysearch/_441ArrangeCoins.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/type/binarysearch/_540SingleNonDuplicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/type/binarysearch/_611ValidTriangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/type/binarysearch/_658FindKClosest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/type/binarysearch/_69Sqrt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/type/binarysearch/_74SearchMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/type/binarysearch/_852FindMountain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/DoubleList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/datastructure/binary_search/_FindBottom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/datastructure/binary_search/_FindTop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/datastructure/bit/OddTimesNum2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/datastructure/bit/sort.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/datastructure/recursion/FindMaxInArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/datastructure/sort/HeapSortX.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/datastructure/sort/_master-formula.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/keypoint/binarysearch/_FindBottom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/keypoint/binarysearch/_FindTop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/type/devide_and_conquer/ReverseOrderPair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/type/devide_and_conquer/SmallSumQuestion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/type/merge/ReverseOrderPair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/type/merge/SmallSumQuestion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/HeapSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/datastructure/heap/_215KthLargest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datastructure/heap/_215KthLargest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/datastructure/sort/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datastructure/sort/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/datastructure/sort/HeapSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datastructure/sort/HeapSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/datastructure/sort/InsertSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datastructure/sort/InsertSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/datastructure/sort/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datastructure/sort/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/datastructure/sort/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datastructure/sort/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/datastructure/sort/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datastructure/sort/SelectionSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,20 +64,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/desktop/Introduction_to_algorithm/src/main/java/type/binarysearch&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/desktop/Introduction_to_algorithm/src/main/java/type/merge",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
@@ -81,9 +86,14 @@
       <recent name="leetcode.tree" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\desktop\Introduction_to_algorithm\src\main\java\type\merge" />
+      <recent name="D:\desktop\Introduction_to_algorithm\src\main\java\keypoint\binarysearch" />
       <recent name="D:\desktop\Introduction_to_algorithm\src\main\java\type\binarysearch" />
       <recent name="D:\desktop\Introduction_to_algorithm\src\main\java\leetcode\tree" />
       <recent name="D:\desktop\Introduction_to_algorithm\src\main\java\top150\array" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\desktop\Introduction_to_algorithm\src\main\java\datastructure\bit" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="tree.recite" />
@@ -91,41 +101,59 @@
       <recent name="tree" />
     </key>
   </component>
-  <component name="RunManager" selected="Application._74SearchMatrix">
-    <configuration name="DoubleList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DoubleList" />
+  <component name="RunManager" selected="Application.HeapSort">
+    <configuration name="HeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HeapSort" />
       <module name="Introduction_to_algorithm" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test" />
-      <module name="Introduction_to_algorithm" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test" />
-      <module name="Introduction_to_algorithm" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test" />
-      <module name="Introduction_to_algorithm" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_74SearchMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="type.binarysearch._74SearchMatrix" />
+    <configuration name="HeapSortX" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="datastructure.sort.HeapSortX" />
       <module name="Introduction_to_algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="type.binarysearch.*" />
+          <option name="PATTERN" value="datastructure.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinHeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="datastructure.sort.MinHeapSort" />
+      <module name="Introduction_to_algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="datastructure.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="datastructure.sort.QuickSort" />
+      <module name="Introduction_to_algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="datastructure.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReverseOrderPair" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="type.devide_and_conquer.ReverseOrderPair" />
+      <module name="Introduction_to_algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="type.devide_and_conquer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application._74SearchMatrix" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.DoubleList" />
-        <item itemvalue="Application.Test (2)" />
-        <item itemvalue="Application.Test (1)" />
+        <item itemvalue="Application.HeapSort" />
+        <item itemvalue="Application.HeapSortX" />
+        <item itemvalue="Application.MinHeapSort" />
+        <item itemvalue="Application.QuickSort" />
+        <item itemvalue="Application.ReverseOrderPair" />
       </list>
     </recent_temporary>
   </component>
@@ -185,7 +213,8 @@
       <workItem from="1696935974041" duration="25504000" />
       <workItem from="1697084565825" duration="7844000" />
       <workItem from="1697110701689" duration="16402000" />
-      <workItem from="1697205081471" duration="21043000" />
+      <workItem from="1697205081471" duration="21232000" />
+      <workItem from="1697286559805" duration="29103000" />
     </task>
     <task id="LOCAL-00001" summary="写一些题目">
       <created>1693724478154</created>
@@ -271,7 +300,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697205102230</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="写一些题目">
+      <created>1697279783109</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1697279783109</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
