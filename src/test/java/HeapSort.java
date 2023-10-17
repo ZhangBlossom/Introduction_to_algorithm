@@ -1,6 +1,4 @@
-import java.util.Arrays;
-
-import static datastructure.sort.HeapSort.heapify;
+import static datastructure.sort.HeapSortX.heapify;
 import static datastructure.sort.QuickSort.swap;
 
 public class HeapSort {
