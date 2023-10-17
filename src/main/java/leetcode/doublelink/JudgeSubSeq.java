@@ -1,4 +1,4 @@
-package leetcode.doublelink.easy;
+package leetcode.doublelink;
 
 /**
  * @author: 张锦标

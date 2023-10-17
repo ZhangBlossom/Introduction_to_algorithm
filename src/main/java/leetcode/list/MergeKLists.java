@@ -1,4 +1,4 @@
-package leetcode.list.hard;
+package leetcode.list;
 
 import leetcode.list.ListNode;
 

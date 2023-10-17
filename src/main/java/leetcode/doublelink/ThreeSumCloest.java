@@ -1,4 +1,4 @@
-package leetcode.doublelink.middle;
+package leetcode.doublelink;
 
 import java.util.Arrays;
 

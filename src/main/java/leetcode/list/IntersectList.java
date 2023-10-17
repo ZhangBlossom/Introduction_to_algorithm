@@ -1,4 +1,4 @@
-package leetcode.list.easy;
+package leetcode.list;
 
 import java.util.HashSet;
 import java.util.Set;
