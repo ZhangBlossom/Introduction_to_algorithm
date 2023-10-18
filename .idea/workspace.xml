@@ -5,28 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4fd4a009-3d50-457c-8a95-8297bb683617" name="Changes" comment="排序算法">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/doublelink/_75SortColor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/hash/_49GroupAnagrams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/list/A_ListPartition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/list/B_CopyListWithRand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/list/PalindromeList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/sort/_56MergeRange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/list/A_IntersectListNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/doublelink/easy/JudgeSubSeq.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/doublelink/JudgeSubSeq.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/doublelink/middle/DelLetterMatchLongestStr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/doublelink/DelLetterMatchLongestStr.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/doublelink/middle/FourSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/doublelink/FourSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/doublelink/middle/ThreeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/doublelink/ThreeSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/doublelink/middle/ThreeSumCloest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/doublelink/ThreeSumCloest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/hash/easy/HappyNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/hash/HappyNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/list/easy/IntersectList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/list/IntersectList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/list/easy/MergeSortedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/list/MergeSortedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/list/easy/PalindromeList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/list/hard/MergeKLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/list/MergeKLists.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/list/middle/DelReciprocalNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/list/DelReciprocalNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/list/middle/RemoveNnode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/list/RemoveNnode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/list/middle/ReverseBetweenList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/list/ReverseBetweenList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/list/middle/ReverseList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/list/ReverseList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/list/middle/SwapNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/list/SwapNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/datastructure/bit/OddTimesNum2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datastructure/bit/OddTimesNum2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -216,7 +197,8 @@
       <workItem from="1697205081471" duration="21232000" />
       <workItem from="1697286559805" duration="33547000" />
       <workItem from="1697458595706" duration="11978000" />
-      <workItem from="1697524379059" duration="9376000" />
+      <workItem from="1697524379059" duration="10825000" />
+      <workItem from="1697547413523" duration="5987000" />
     </task>
     <task id="LOCAL-00001" summary="写一些题目">
       <created>1693724478154</created>
@@ -323,7 +305,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697520852108</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="排序算法">
+      <created>1697544444143</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1697544444143</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
