@@ -5,9 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4fd4a009-3d50-457c-8a95-8297bb683617" name="Changes" comment="排序算法">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/list/A_IntersectListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/datastructure/tree/FloorTraverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/datastructure/tree/InOrderTraverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/datastructure/tree/IsBBT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/datastructure/tree/IsBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/datastructure/tree/IsCBT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/datastructure/tree/PostOrderTraverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/datastructure/tree/PreOrderTraverse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/datastructure/bit/OddTimesNum2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datastructure/bit/OddTimesNum2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/list/A_IntersectListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/list/A_IntersectListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/tree/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/TreeNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,26 +84,20 @@
       <recent name="D:\desktop\Introduction_to_algorithm\src\main\java\datastructure\bit" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="datastructure.tree" />
       <recent name="datastructure.heap" />
       <recent name="tree.recite" />
       <recent name="tree.offer" />
       <recent name="tree" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RadixSort">
-    <configuration name="HeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HeapSort" />
-      <module name="Introduction_to_algorithm" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MinHeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="datastructure.sort.MinHeapSort" />
+  <component name="RunManager" selected="Application.IsBBT">
+    <configuration name="FloorTraverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="datastructure.tree.FloorTraverse" />
       <module name="Introduction_to_algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="datastructure.sort.*" />
+          <option name="PATTERN" value="datastructure.tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PriorityQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="datastructure.heap.PriorityQueue" />
+    <configuration name="InOrderTraverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="datastructure.tree.InOrderTraverse" />
       <module name="Introduction_to_algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="datastructure.heap.*" />
+          <option name="PATTERN" value="datastructure.tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RadixSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="datastructure.sort.RadixSort" />
+    <configuration name="IsBBT" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="datastructure.tree.IsBBT" />
       <module name="Introduction_to_algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="datastructure.sort.*" />
+          <option name="PATTERN" value="datastructure.tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,12 +131,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="datastructure.sort.HeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="datastructure.sort.HeapSort" />
+    <configuration name="IsBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="datastructure.tree.IsBST" />
       <module name="Introduction_to_algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="datastructure.sort.*" />
+          <option name="PATTERN" value="datastructure.tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PostOrderTraverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="datastructure.tree.PostOrderTraverse" />
+      <module name="Introduction_to_algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="datastructure.tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,10 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RadixSort" />
-        <item itemvalue="Application.HeapSort" />
-        <item itemvalue="Application.datastructure.sort.HeapSort" />
-        <item itemvalue="Application.MinHeapSort" />
+        <item itemvalue="Application.IsBBT" />
+        <item itemvalue="Application.IsBST" />
+        <item itemvalue="Application.FloorTraverse" />
+        <item itemvalue="Application.PostOrderTraverse" />
+        <item itemvalue="Application.InOrderTraverse" />
       </list>
     </recent_temporary>
   </component>
@@ -198,7 +213,8 @@
       <workItem from="1697286559805" duration="33547000" />
       <workItem from="1697458595706" duration="11978000" />
       <workItem from="1697524379059" duration="10825000" />
-      <workItem from="1697547413523" duration="5987000" />
+      <workItem from="1697547413523" duration="6154000" />
+      <workItem from="1697676517381" duration="16325000" />
     </task>
     <task id="LOCAL-00001" summary="写一些题目">
       <created>1693724478154</created>
@@ -312,7 +328,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697544444143</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="排序算法">
+      <created>1697629585512</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1697629585512</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

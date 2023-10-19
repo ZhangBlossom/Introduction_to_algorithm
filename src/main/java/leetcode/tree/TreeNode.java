@@ -18,6 +18,37 @@ public class TreeNode {
         this.right = right;
     }
 
+
+    public static TreeNode getBST(){
+        TreeNode head = new TreeNode(3);
+        head.left = new TreeNode(2);
+        head.right = new TreeNode(4);
+        head.left.left = new TreeNode(1);
+        head.right.right = new TreeNode(5);
+        return head;
+    }
+
+    public static TreeNode getCBT(){
+        TreeNode head = new TreeNode(1);
+        head.left = new TreeNode(2);
+        head.right = new TreeNode(3);
+        head.left.left = new TreeNode(4);
+        head.left.right = new TreeNode(5);
+        head.right.left = new TreeNode(6);
+        head.right.right = new TreeNode(7);
+        return head;
+    }
+
+    public static TreeNode getBBT(){
+        TreeNode head = new TreeNode(1);
+        head.left = new TreeNode(2);
+        head.right = new TreeNode(3);
+        head.left.left = new TreeNode(4);
+        head.left.right = new TreeNode(5);
+        head.right.left = new TreeNode(6);
+        return head;
+    }
+
     public TreeNode insert(TreeNode root, int val) {
         if (root == null) {
             TreeNode newNode = new TreeNode(val);
