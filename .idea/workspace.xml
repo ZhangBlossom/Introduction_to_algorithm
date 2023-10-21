@@ -4,17 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4fd4a009-3d50-457c-8a95-8297bb683617" name="Changes" comment="排序算法">
-      <change afterPath="$PROJECT_DIR$/src/main/java/datastructure/tree/FloorTraverse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/datastructure/tree/InOrderTraverse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/datastructure/tree/IsBBT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/datastructure/tree/IsBST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/datastructure/tree/IsCBT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/datastructure/tree/PostOrderTraverse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/datastructure/tree/PreOrderTraverse.java" afterDir="false" />
+    <list default="true" id="4fd4a009-3d50-457c-8a95-8297bb683617" name="Changes" comment="树">
+      <change afterPath="$PROJECT_DIR$/src/main/java/type/array/_506RelativeRanks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/type/array/_594LongestHarmoneySeq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/type/array/_598RandomSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/type/list/_160IntersectionNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/list/A_IntersectListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/list/A_IntersectListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/tree/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/TreeNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,22 +86,9 @@
       <recent name="tree" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.IsBBT">
+  <component name="RunManager" selected="Application._506RelativeRanks">
     <configuration name="FloorTraverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="datastructure.tree.FloorTraverse" />
-      <module name="Introduction_to_algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="datastructure.tree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InOrderTraverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="datastructure.tree.InOrderTraverse" />
       <module name="Introduction_to_algorithm" />
       <extension name="coverage">
         <pattern>
@@ -157,13 +139,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_506RelativeRanks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="type.array._506RelativeRanks" />
+      <module name="Introduction_to_algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="type.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._506RelativeRanks" />
         <item itemvalue="Application.IsBBT" />
         <item itemvalue="Application.IsBST" />
         <item itemvalue="Application.FloorTraverse" />
         <item itemvalue="Application.PostOrderTraverse" />
-        <item itemvalue="Application.InOrderTraverse" />
       </list>
     </recent_temporary>
   </component>
@@ -214,7 +209,11 @@
       <workItem from="1697458595706" duration="11978000" />
       <workItem from="1697524379059" duration="10825000" />
       <workItem from="1697547413523" duration="6154000" />
-      <workItem from="1697676517381" duration="16325000" />
+      <workItem from="1697676517381" duration="17976000" />
+      <workItem from="1697708218833" duration="599000" />
+      <workItem from="1697773188871" duration="633000" />
+      <workItem from="1697785138519" duration="599000" />
+      <workItem from="1697874946399" duration="5375000" />
     </task>
     <task id="LOCAL-00001" summary="写一些题目">
       <created>1693724478154</created>
@@ -335,7 +334,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697629585512</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="树">
+      <created>1697706355472</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1697706355472</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -357,7 +363,8 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="写一些题目" />
     <MESSAGE value="排序算法" />
-    <option name="LAST_COMMIT_MESSAGE" value="排序算法" />
+    <MESSAGE value="树" />
+    <option name="LAST_COMMIT_MESSAGE" value="树" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -366,6 +373,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/type/binarysearch/_74SearchMatrix.java</url>
           <line>65</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/type/array/_506RelativeRanks.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
