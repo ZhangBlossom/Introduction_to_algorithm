@@ -4,18 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4fd4a009-3d50-457c-8a95-8297bb683617" name="Changes" comment="做一些题目">
-      <change afterPath="$PROJECT_DIR$/src/test/java/async/CompletableFutureTest.java" afterDir="false" />
+    <list default="true" id="4fd4a009-3d50-457c-8a95-8297bb683617" name="Changes" comment="ComletableFuture_Code">
+      <change afterPath="$PROJECT_DIR$/src/main/java/framework/bq/ReentrantLockBlockingQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/framework/bq/SynchronizedBlockingQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/framework/cache/LFUCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/framework/cache/LRUCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/framework/cache/Node.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ArrayDup.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DeadLock.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DoubleList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FileSecret.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/HeapSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/InnerClassTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ReverseTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Test.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,20 +48,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/desktop/Introduction_to_algorithm/src/main/java/type/merge&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/desktop/Introduction_to_algorithm/src/main/java/framework/cache",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
@@ -220,7 +215,7 @@
       <workItem from="1697773188871" duration="633000" />
       <workItem from="1697785138519" duration="599000" />
       <workItem from="1697874946399" duration="5397000" />
-      <workItem from="1697881104103" duration="3367000" />
+      <workItem from="1697881104103" duration="4591000" />
     </task>
     <task id="LOCAL-00001" summary="写一些题目">
       <created>1693724478154</created>
@@ -355,7 +350,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697881035717</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="ComletableFuture_Code">
+      <created>1697888917545</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1697888917545</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -379,7 +381,8 @@
     <MESSAGE value="排序算法" />
     <MESSAGE value="树" />
     <MESSAGE value="做一些题目" />
-    <option name="LAST_COMMIT_MESSAGE" value="做一些题目" />
+    <MESSAGE value="ComletableFuture_Code" />
+    <option name="LAST_COMMIT_MESSAGE" value="ComletableFuture_Code" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
